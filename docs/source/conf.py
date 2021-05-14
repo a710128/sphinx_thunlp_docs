@@ -55,7 +55,7 @@ gettext_compact = False     # optional.
 # so a file named "default.css" will overwrite the builtin "default.css".
 
 html_theme = "sphinx_thunlp_theme"
-html_context = {"github_url": "https://github.com/thunlp/OpenAttack/"}
+html_context = {"github_url": "https://github.com/a710128/sphinx_thunlp_docs"}
 master_doc = 'index'
 
 
