@@ -9,6 +9,7 @@ setup(
     author_email='qbjooo@qq.com',
     description='THUNLP open-source project theme for Sphinx',
     long_description=open('README.md', encoding='utf-8').read(),
+    long_description_content_type="text/markdown",
     zip_safe=False,
     packages=['sphinx_thunlp_theme'],
     package_data={'sphinx_thunlp_theme': [
