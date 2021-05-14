@@ -211,13 +211,17 @@ footer .contact img {
 }
 
 #search-results .search li a,
-.main-content a.reference {
+.main-content a.reference,
+.main-content a.footnote-reference,
+.main-content a.fn-backref {
     color: #1185A7;
     font-weight: normal;
 }
 
 #search-results .search li a:hover,
-.main-content a.reference:hover {
+.main-content a.reference:hover,
+.main-content a.footnote-reference:hover,
+.main-content a.fn-backref:hover {
     color: #41b9dd;
     text-shadow: 0 .05rem 1rem rgba(17, 133, 167, .08), .05rem 0 1rem rgba(17, 133, 167, .08);
 }

@@ -12,35 +12,11 @@ topic-trees
 
 
 .. toctree::
-   :caption: Examples
+   :caption: reST
 
-   Example 1: Basic Usage <examples/example1>
-   Example 2: Customized Victim Model <examples/example2>
-   Example 3: Customized Attack Model <examples/example3>
-   Example 4: Customized Evaluation <examples/example4>
-   Example 5: Adversarial Training <examples/example5>
-
-.. toctree::
-   :caption: Modules
-
-   DataManager <apis/data_manager>
-   Attacker <apis/attacker>
-   Substitute <apis/substitute>
-   Metric <apis/metric>
-   TextProcessor <apis/text_processor>
-   AttackEval <apis/attack_eval>
-   Classifier <apis/classifier>
-   utils <apis/utils>
-
-.. toctree::
-   :hidden:
-   :caption: Data
-
-   AttackAssist <data/AttackAssist>
-   TProcess <data/TProcess>
-   Victim <data/Victim>
-
-
+   Title & Paragraph <restext/title>
+   Inline <restext/inline>
+   Charts <restext/charts>
 
 
 project-slogans

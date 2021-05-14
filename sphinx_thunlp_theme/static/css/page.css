@@ -327,3 +327,60 @@
 .main-content em {
     color: #008000;
 }
+
+.main-content div.style-demo.topic .topic-title {
+    display: none;
+}
+
+
+.main-content div.style-demo.topic  {
+    border: .1rem solid #DDD;
+    padding: 1rem;
+    border-radius: .2rem;
+}
+
+.main-content .footnote-reference {
+    font-size: .8em;
+    position: relative;
+    top: -.3em;
+}
+
+.main-content dl.footnote > dt {
+    clear: left;
+    float: left;
+    position: relative;
+    top: .15em;
+    width: 2rem;
+    text-align: center;
+}
+
+.main-content dl.footnote > dt > span.brackets {
+    padding: 0 .1rem;
+}
+
+.main-content dl.footnote > dt::before {
+    content: '[';
+    color: #3A3B3C;
+}
+
+.main-content dl.footnote > dt::after {
+    content: ']';
+    color: #3A3B3C;
+}
+
+.main-content p.rubric {
+    font-family: Alibaba-PuHuiTi-Light;
+    font-size: 1rem;
+    color: #3A3B3C;
+    line-height: 1.6rem;
+}
+
+.main-content dl.footnote > dd {
+    margin-left: 2.4rem;
+}
+
+.main-content dl.footnote > dd p {
+    font-size: .8rem;
+    color: #959595;
+    line-height: 1.6rem;
+}
