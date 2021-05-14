@@ -14,7 +14,7 @@ Quick Start
 
 .. code-block:: sh
 
-    pip install sphinx_thunlp_theme
+    pip install sphinx-thunlp-theme
 
 使用setup.py安装
 -----------------------
