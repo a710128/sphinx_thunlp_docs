@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='sphinx_thunlp_theme',
     version='0.0.1',
-    url='https://git.thunlp.vip/zgy/thunlp-project-template',
+    url='https://github.com/a710128/sphinx_thunlp_docs',
     license='MIT',
     author='a710128',
     author_email='qbjooo@qq.com',
@@ -20,7 +20,6 @@ setup(
         'static/images/*.svg',
     ]},
     include_package_data=True,
-    # See http://www.sphinx-doc.org/en/stable/theming.html#distribute-your-theme-as-a-python-package
     entry_points = {
         'sphinx.html_themes': [
             'sphinx_thunlp_theme = sphinx_thunlp_theme',
