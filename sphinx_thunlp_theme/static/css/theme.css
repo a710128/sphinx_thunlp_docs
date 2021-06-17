@@ -111,6 +111,10 @@ footer .contact img {
     position: relative;
 }
 
+.thunlp-menu .nav-top:not(.current):hover {
+    color: #29ACD3;
+}
+
 .thunlp-menu .nav-top.current::after {
     content: '';
     display: block;
