@@ -294,3 +294,8 @@ table>caption:hover .headerlink:after,
     padding: 0 1rem;
     font-family: monospace;
 }
+
+span.linenos {
+    margin-right: .6rem;
+    user-select: none;
+}
