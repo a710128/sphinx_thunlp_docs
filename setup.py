@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='sphinx_thunlp_theme',
-    version='0.0.7',
+    version='0.0.8',
     url='https://github.com/a710128/sphinx_thunlp_docs',
     license='MIT',
     author='a710128',
@@ -27,7 +27,7 @@ setup(
         ]
     },
     install_requires=[
-        'sphinx>=4.0.0',
+        'sphinx<4,>=3',
     ],
     classifiers=[
         'Framework :: Sphinx',
