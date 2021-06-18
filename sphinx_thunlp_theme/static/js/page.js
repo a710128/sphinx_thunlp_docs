@@ -1,5 +1,6 @@
 $(function() {
     var level_1_sections = document.querySelectorAll(".body > section");
+    if (level_1_sections.length == 0) level_1_sections = document.querySelectorAll(".body > div.section");
 
     if (level_1_sections.length > 0) {
         for (var i = 1; i < level_1_sections.length; ++ i) {
@@ -20,8 +21,11 @@ $(function() {
                 if (section.children[i].tagName.toLowerCase() != "div") {
                     page_header_list.push(section.children[i]);
                 } else {
-                    if (section.children[i].classList.contains("section")) {
+                    if (section.children[i].tagName.toLowerCase() == "section") {
                         // break when meet the first section
+                        break;
+                    }
+                    if (section.children[i].classList.contains("section")) {
                         break;
                     }
                 }
