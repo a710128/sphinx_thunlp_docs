@@ -18,7 +18,8 @@ $(function() {
         } else {
             var page_header_list = [];
             for (var i = 0; i < section.children.length; ++ i) {
-                if (section.children[i].tagName.toLowerCase() != "div") {
+                var curr_tag_name = section.children[i].tagName.toLowerCase();
+                if (curr_tag_name != "div" && curr_tag_name != "section") {
                     page_header_list.push(section.children[i]);
                 } else {
                     if (section.children[i].tagName.toLowerCase() == "section") {
@@ -26,6 +27,7 @@ $(function() {
                         break;
                     }
                     if (section.children[i].classList.contains("section")) {
+                        // break when meet the first section
                         break;
                     }
                 }
