@@ -1,5 +1,5 @@
 $(function() {
-    var level_1_sections = document.querySelectorAll(".body > .section");
+    var level_1_sections = document.querySelectorAll(".body > section");
 
     if (level_1_sections.length > 0) {
         for (var i = 1; i < level_1_sections.length; ++ i) {
