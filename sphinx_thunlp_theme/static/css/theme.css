@@ -62,6 +62,7 @@ footer .footer-link {
 
 footer .contact {
     margin-left: 2rem;
+    position: relative;
 }
 
 footer .contact img {
@@ -298,4 +299,15 @@ table>caption:hover .headerlink:after,
 span.linenos {
     margin-right: .6rem;
     user-select: none;
+}
+
+.hover-box {
+    position: absolute;
+    display: none;
+}
+
+.contact:hover .hover-box {
+    display: block;
+    bottom: calc(100% + .5rem);
+    right: 0;
 }

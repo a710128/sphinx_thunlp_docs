@@ -19,6 +19,7 @@ setup(
         'static/fonts/*.otf',
         'static/js/*.js',
         'static/images/*.svg',
+        'static/images/*.jpg',
     ]},
     include_package_data=True,
     entry_points = {
